@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "SpaceX - site"
+	},
+	{
+		"path": "Java Script"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Java Script"
+  }
+}

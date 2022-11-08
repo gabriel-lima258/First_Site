@@ -1,0 +1,68 @@
+.header {
+  font-size: 25px;
+  color: red;
+  font-weight: bold;
+  align-items: center;
+  #navButton {
+    &:hover {
+      color: rgb(255, 0, 0);
+    }
+  }
+}
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.arrowDown {
+  display: inline-block;
+  width: 90px;
+  margin-top: 5px;
+}
+.logoPc {
+  width: 280px;
+  height: 200px;
+  margin-left: -10px;
+  margin-right: 40px;
+}
+#button {
+  padding: $paddingButton;
+  border: 2px solid white;
+}
+.footer {
+  background-color: black;
+  height: 15vh;
+  font-size: 22px;
+  font-weight: 500;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: rgb(183, 23, 23);
+
+    &:hover {
+      color: $hovercolor;
+    }
+  }
+}
+.copyOBC {
+  color: whitesmoke;
+}
+@media (max-width: 405px) {
+  .logoPc {
+    width: 180px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logoPc {
+    width: 150px;
+    margin-top: 15px;
+  }
+}
